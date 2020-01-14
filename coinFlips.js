@@ -8,11 +8,11 @@ play until one coin remains.
 */
 
 const coinFlip = numCoins => {
-  if (numCoins < 1) return null;
-  if (numCoins == 1) return 1;
-  return coinFlip(Math.ceil(numCoins / 2)) + 1;
-};
+  if (numCoins < 1) return null
+  if (numCoins == 1) return 1
+  return coinFlip(Math.ceil(numCoins / 2)) + 1
+}
 
-const result = coinFlip(100);
+const result = coinFlip(100)
 
-console.log({ result });
+console.log({ result })

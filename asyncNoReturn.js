@@ -1,17 +1,17 @@
 const thingToAwait = () => {
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve(true);
-    }, 1000);
-  });
-};
+      resolve(true)
+    }, 1000)
+  })
+}
 
 async function doSomeStuff() {
-  await thingToAwait();
+  await thingToAwait()
 }
 
 async function mainFunc() {
-  console.log(await doSomeStuff());
+  console.log(await doSomeStuff())
 }
 
-mainFunc();
+mainFunc()

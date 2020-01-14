@@ -8,11 +8,11 @@ you should return False.
 */
 function fixedPointArray(inputArray) {
   for (let i = 0; i < inputArray.length; i++) {
-    if (i === inputArray[i]) return i;
-    if (inputArray[i] > inputArray.length) return false;
+    if (i === inputArray[i]) return i
+    if (inputArray[i] > inputArray.length) return false
   }
-  return false;
+  return false
 }
 
-const testArray = [1, 5, 7, 8];
-console.log(fixedPointArray(testArray));
+const testArray = [1, 5, 7, 8]
+console.log(fixedPointArray(testArray))

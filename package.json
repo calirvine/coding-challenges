@@ -15,7 +15,7 @@
   "scripts": {
     "test": "test",
     "lint": "eslint --ignore-path .gitignore .",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\""
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\""
   },
   "repository": {
     "type": "git",
