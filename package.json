@@ -1,0 +1,33 @@
+{
+  "name": "dailycodingproblem",
+  "version": "1.0.0",
+  "description": "repo for various algorithm tests and coding challenges Some of these are complete, some are incomplete. Sources are mostly: Daily coding challenge email distribution list, Hackerrank, leetcode.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-base64": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "test": "test",
+    "lint": "eslint --ignore-path .gitignore .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calirvine/coding-challenges.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "Cal Irvine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calirvine/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/calirvine/coding-challenges#readme"
+}
